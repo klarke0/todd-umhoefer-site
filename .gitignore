@@ -1,4 +1,17 @@
+# Credentials
 .notion-token
-.DS_Store
 *.env
+.env.*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node (if ever added)
 node_modules/
+npm-debug.log*
+
+# Build artifacts (if ever added)
+dist/
+.cache/
